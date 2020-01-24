@@ -56,12 +56,23 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
-function modifyRowContainer(value){
-  switch (value) {
-      case 1:
-          document.querySelector(".rowContainer").style.display = "block"
-          break;
-      default:
-          document.querySelector(".rowContainer").style.display = "inline-block"
+var imageBoxes = document.getElementsByClassName('imageBox');
+  for(i = 0; i < cols.imageBoxes; i++) {
+    imageBoxes[i].style = "flex:1 0 15%";
   }
+  function modifyRowContainer(value){
+    var flexParam = "flex:1 0 21%";
+    var imageBoxes = document.getElementsByClassName('imageBox');
+    
+    switch (value) {
+        case 1:
+            flexParam = "flex:1 0 15%"
+            break;
+        default:
+            flexParam = "flex:1 0 21%";
+    }
+
+    for(i = 0; i < imageBoxes.length; i++) {
+        imageBoxes[i].style = flexParam;
+    }
 }
