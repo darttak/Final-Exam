@@ -56,3 +56,12 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+function modifyRowContainer(value){
+  switch (value) {
+      case 1:
+          document.querySelector(".rowContainer").style.display = "block"
+          break;
+      default:
+          document.querySelector(".rowContainer").style.display = "inline-block"
+  }
+}
