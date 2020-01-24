@@ -169,8 +169,8 @@
             </div>
             <div class="swiper-pagination"></div>
         <!-- Add Arrows -->
-            <!-- <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div> -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
           </div>
     </section>
     <section id="map" class="map">
@@ -219,6 +219,10 @@
                 spaceBetween:20
             },
           },
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
           loop: true,
           pagination: {
             el: '.swiper-pagination',
