@@ -1,0 +1,397 @@
+* {
+  font-family: 'Lato', sans-serif; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  background-color: white; }
+
+.logocontainer {
+  margin-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%; }
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly; }
+
+a {
+  padding: 10px;
+  margin: auto;
+  margin-right: 20px;
+  text-decoration: none;
+  color: black; }
+
+a:hover {
+  color: white;
+  background: #009b81; }
+
+.brand {
+  background-image: url(/img/Header/background.png);
+  height: 455px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white; }
+
+.brandBold {
+  font-weight: 700; }
+
+h1 {
+  font-weight: 300;
+  font-size: 50px; }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  height: 47px;
+  width: 100%;
+  z-index: 1000;
+  padding-top: 10px; }
+
+.logocontainer img {
+  max-width: 47px;
+  max-height: 47px; }
+
+.sticky + .content {
+  padding-top: 60px; }
+
+.menu {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content; }
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 47px;
+  display: none;
+  float: right;
+  width: 26px; }
+
+#toggle {
+  display: none; }
+
+.captionText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.captionTitle .links {
+  font-size: 21px;
+  margin-bottom: 2px;
+  margin: auto;
+  padding: 0; }
+
+.links {
+  text-decoration: none; }
+
+.captionSubtitle {
+  font-size: 15px;
+  margin-top: 2px; }
+
+iframe {
+  width: 60%; }
+
+.rowContainer {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 10px 20px 10px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.imagebox {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  margin: 10px;
+  display: none;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 21%;
+  flex: 1 0 21%; }
+
+.imagebox img {
+  max-width: 170px; }
+
+.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #009b81;
+  cursor: pointer;
+  margin-right: 20px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-transform: uppercase; }
+
+#myBtnContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.btn:hover {
+  background-color: #c26464; }
+
+.btn.active {
+  background-color: #0a917adc;
+  color: white; }
+
+.imagebox {
+  position: relative;
+  width: 170px; }
+
+.imagebox img {
+  width: 100%; }
+
+.caption {
+  width: 100%;
+  height: 98%;
+  background: #009b81;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: white;
+  max-width: 170px; }
+
+.imagebox:hover .caption {
+  opacity: 0.8;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif; }
+
+h2, h3 {
+  text-align: center;
+  font-family: 'Lato', sans-serif; }
+
+h2 {
+  margin: 45px 0 30px 0; }
+
+.portfolioText {
+  text-align: center; }
+
+.contact-section {
+  padding: 0px 0; }
+
+.border {
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto; }
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden; }
+
+.aboutUsTitle {
+  color: white;
+  height: 40px;
+  margin: auto;
+  padding-top: 45px; }
+
+::-webkit-input-placeholder {
+  color: white; }
+
+:-ms-input-placeholder {
+  color: white; }
+
+::-ms-input-placeholder {
+  color: white; }
+
+::placeholder {
+  color: white; }
+
+.contact-form-text {
+  display: block;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #009b81;
+  padding: 20px 40px;
+  outline: none;
+  color: white;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+.contact-form-text:focus {
+  background-color: white;
+  color: black;
+  border: 1px solid; }
+
+textarea.contact-form-text {
+  resize: none;
+  height: 120px; }
+
+.contact-form-btn {
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+.contact-form-btn:hover {
+  background: #2980b9; }
+
+.mapContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #f1efef;
+  margin: auto;
+  width: 70%; }
+
+h3 {
+  font-family: 'Lato', sans-serif; }
+
+.contactInfo {
+  margin-right: 5%;
+  border: black;
+  margin: auto; }
+
+.contactInfo p {
+  font-family: 'Lato', sans-serif; }
+
+.aboutUs {
+  background-color: #009b81; }
+
+.swiper-container {
+  margin: auto;
+  width: 70%;
+  height: 800px; }
+
+.sliderName {
+  margin-bottom: 2px; }
+
+.sliderSubtitle {
+  font-style: italic;
+  text-align: center;
+  margin-top: 2px; }
+
+.sliderP {
+  font-size: 16px; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  height: 80% !important;
+  margin: auto; }
+
+.sliderImage {
+  position: absolute;
+  top: 0; }
+
+.sliderText {
+  position: absolute;
+  bottom: 0;
+  height: 55%;
+  text-align: justify;
+  width: 85%;
+  margin-top: 0; }
+
+.sliderImage, .sliderImage img {
+  width: 100%;
+  height: 68%; }
+
+@media only screen and (max-width: 768px) {
+  label {
+    display: block;
+    cursor: pointer; }
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none; }
+  a {
+    display: block;
+    margin: 0; }
+  #toggle:checked + .menu {
+    display: block; } }
+
+@media only screen and (min-width: 1441px) {
+  .swiper-container {
+    margin: auto;
+    width: 50%;
+    height: 720px; } }
+
+@media only screen and (min-width: 1441px) {
+  .swiper-container {
+    margin: auto;
+    width: 50%;
+    height: 720px; } }
+
+@media only screen and (max-width: 1025px) {
+  .swiper-container {
+    margin: auto;
+    width: 50%;
+    height: 720px; } }

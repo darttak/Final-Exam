@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <title>FInalExam</title>
+</head>
+<body>
+    <header>
+        <!-- Nav-start -->
+        <div id="myNavContainer" class="container">
+            <div class="logocontainer">
+                <img src="./img/Header/b-logo.png" alt="logoimg">
+                <div class="title-wrapper">
+                    <div class="title">BAK-ONE</div>
+                    <div class="subtitle">One Page Flat Template</div>
+                </div>
+            </div>
+            <nav>
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle"/>
+                <div class="menu">
+                    <a href="#home">HOME</a>
+                    <a href="#portfolio">PORTFOLIO</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#map">MAP</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+            </nav>
+            <!-- <iframe src="http://free.timeanddate.com/clock/i740sopw/n4084/tlua41/fn11/fs18/bas2/bac009b81/tt0/tw0/tm1/ts1/tb4" width="113" height="50"></iframe> -->
+        </div>
+        <!-- Nav-end -->
+    </header>
+    <section id="home" class="brand">
+        <h1>We Build <span class="brandBold">Brand</span></h1>
+        <p class="brand_text">
+            BAK-ONE is an experienced and passionate group of designers, developers, project managers, writers and artists. Every client we work with becomes a part of the team. Together we face the challenges and celebrate the victories.
+        </p>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <p class="portfolioText">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('webDes')"> Web Design</button>
+            <button class="btn" onclick="filterSelection('graphDes')"> Graphic Design</button>
+            <button class="btn" onclick="filterSelection('flatDes')"> Flat Design</button>
+        </div>
+        <div class="rowContainer">
+            <div class="imagebox webDes">
+                <img src="./img/Section01/img-2.png" alt="img02">
+                <div class="caption">
+                    <div class="captionText">
+                        <p class="captionTitle"><a class="links" href="https://www.mcdonalds.pt/" target="_blank">Explore More</a></p>
+                        <p class="captionSubtitle">WEB DESIGN</p>
+                    </div>
+                </div>
+            </div>
+            <div class="imagebox graphDes">
+                <img src="./img/Section01/img-1.png" alt="img01">
+                <div class="caption">
+                    <div class="captionText">
+                        <p class="captionTitle">Explore More</p>
+                        <p class="captionSubtitle">GRAPHIC DESIGN</p>
+                    </div>
+                </div>
+            </div>
+            <div class="imagebox flatDes">
+                <img src="./img/Section01/img-3.png" alt="img03">
+                <div class="caption">
+                    <div class="captionText">
+                        <p class="captionTitle">Explore More</p>
+                        <p class="captionSubtitle">FLAT DESIGN</p>
+                    </div>
+                </div>
+            </div>
+            <div class="imagebox graphDes">
+                <img src="./img/Section01/img-7.png" alt="img07">
+                <div class="caption">
+                    <div class="captionText">
+                        <p class="captionTitle">Explore More</p>
+                        <p class="captionSubtitle">GRAPHIC DESIGN</p>
+                    </div>
+                </div>
+            </div>
+            <div class="imagebox webDes">
+                <img src="./img/Section01/img-4.png" alt="img04">
+                <div class="caption">
+                    <div class="captionText">
+                        <p class="captionTitle">Explore More</p>
+                        <p class="captionSubtitle">WEB DESIGN</p>
+                    </div>
+                </div>
+            </div>
+            <div class="imagebox graphDes">
+                <img src="./img/Section01/img-6.png" alt="img06">
+                <div class="caption">
+                    <div class="captionText">
+                        <p class="captionTitle">Explore More</p>
+                        <p class="captionSubtitle">GRAPHIC DESIGN</p>
+                    </div>
+                </div>
+            </div>
+            <div class="imagebox flatDes">
+                <img src="./img/Section01/img-5.png" alt="img05">
+                <div class="caption">
+                    <div class="captionText">
+                        <p class="captionTitle">Explore More</p>
+                        <p class="captionSubtitle">FLAT DESIGN</p>
+                    </div>
+                </div>
+            </div>
+            <div class="imagebox webDes">
+                <img src="./img/Section01/img-8.png" alt="img08">
+                <div class="caption">
+                    <div class="captionText">
+                        <p class="captionTitle">Explore More</p>
+                        <p class="captionSubtitle">WEB DESIGN</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section >
+    <section id="about" class="aboutUs">
+        <h2 class="aboutUsTitle">About Us</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="sliderImage">
+                    <img src="./img/Section02/ava-1.png" alt="sectionimg01">
+                </div>
+                <div class="sliderText">
+                    <div class="sliderHeader">
+                        <h3 class="sliderName">Marry Doe</h3>
+                        <p class="sliderSubtitle">Project Manager</p>
+                    </div>
+                    <div class="sliderP">Marry brings together the diverse talents of small teams to produce great work. When she's not here at BO, she's playing with her daughter Lillian or playing in one of several bands.</div>
+                </div>
+              </div>
+              <div class="swiper-slide" >
+                <div class="sliderImage">
+                    <img src="./img/Section02/ava-2.png" alt="sectionimg02">
+                </div>
+                <div class="sliderText">
+                    <div class="sliderHeader">
+                        <h3 class="sliderName">John Doe</h3>
+                        <p class="sliderSubtitle">Graphic Designer</p>
+                    </div>
+                    <div class="sliderP">John is a designer with a love for experimentation. Typography and illustration are his greatest passions. His focus at BAK-ONE is to create memorable, beautiful solutions for tough problems, and to learn something new every single day.</div>
+                </div>
+              </div>
+              <div class="swiper-slide" >
+                <div class="sliderImage">
+                    <img src="./img/Section02/ava-3.png" alt="sectionimg03">
+                </div>
+                <div class="sliderText">
+                    <div class="sliderHeader">
+                        <h3 class="sliderName">Garry Doe</h3>
+                        <p class="sliderSubtitle">Web Designer</p>
+                    </div>
+                    <div class="sliderP">Garry is a passionate designer with a focus on all aspects of visual identity design. He enjoys finding simple solutions to immersive projects and the ever changing nature of client facing design work as well as many other avenues of artistic and creative expression from music to furniture.</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+          </div>
+    </section>
+    <section id="map" class="map">
+        <h2>Find Us Here</h2>
+        <div class="mapContainer">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1651.8802694733474!2d-118.334465441996!3d34.10127441614705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf3b5ca1ce61%3A0x1c7aa280e317cfbf!2zNjYwMCBIb2xseXdvb2QgQmx2ZCwgTG9zIEFuZ2VsZXMsIENBIDkwMDI4LCDQodCo0JA!5e0!3m2!1sru!2sua!4v1579278803393!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <div class="contactInfo">
+                <h3 class="info">INFORMATION</h3>
+                <p><i class="fa fa-map-marker"></i>Bak-One Company<br>6600 Hollywood Blvd<br>Los Angeles, California</p>
+                <p><i class="fa fa-phone"></i> +380000000000</p>
+                <p><i class="fa fa-envelope"></i> asd@asd.com</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-section">
+            <div class="border"></div>
+            <form class="contact-form" action="index.html" method="post">
+              <input type="text" class="contact-form-text" placeholder="Your name">
+              <input type="email" class="contact-form-text" placeholder="Your email">
+              <input type="tel" class="contact-form-text" placeholder="Your phone">
+              <textarea class="contact-form-text" placeholder="Your message"></textarea>
+              <input type="submit" class="contact-form-btn" value="Send">
+            </form>
+          </div>
+    </section>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          breakpoints: {
+            1025:{
+                slidesPerView: 3,
+                spaceBetween:30
+            },
+            1024:{
+                slidesPerView: 2,
+                spaceBetween:20
+            },
+            320:{
+                slidesPerView: 1,
+                spaceBetween:20
+            },
+          },
+          loop: true,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+      </script>
+</body>
