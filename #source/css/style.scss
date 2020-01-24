@@ -40,6 +40,8 @@ a:hover{
 h1{
   font-weight: 300;
   font-size: 50px;
+  padding-top: 100px;
+  margin-top: 0;
 }
 .sticky {
   position: fixed;
@@ -70,6 +72,13 @@ label{
 #toggle{
   display: none;
 }
+.brand_text{
+  margin: auto;
+  width: 60%;
+}
+h1{
+  text-align: center;
+}
 .portfolio{
 }
 .captionText{
@@ -78,6 +87,7 @@ label{
   align-content: center;
   flex-direction: column;
   align-items: center;
+  height: 100%;
 }
 .captionTitle .links{
   font-size: 21px;
@@ -88,6 +98,10 @@ label{
 }
 .links{
   text-decoration: none;
+}
+.links:hover{
+  background: none;
+  padding-top: 20px;
 }
 .captionSubtitle{
   font-size: 15px;
