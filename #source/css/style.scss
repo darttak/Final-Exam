@@ -123,8 +123,6 @@ iframe{
 }
 .rowContainer {
   overflow: hidden;
-  padding-left: 20%;
-  padding-right: 20%;
   display: flex;
   margin: 30px 10px 20px 10px;
   justify-content: center;
@@ -138,7 +136,7 @@ iframe{
   text-align: center;
   margin: 10px;
   display: none;
-  flex: 1 0 21%;
+  flex: 0 21%;
 }
 .imagebox img{
   max-width: 170px;
