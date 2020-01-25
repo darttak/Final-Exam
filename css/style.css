@@ -18,7 +18,7 @@
   padding-top: 2px; }
 
 .logo {
-  padding-bottom: 2px; }
+  padding-bottom: 5px; }
 
 nav {
   display: -webkit-box;
@@ -65,7 +65,7 @@ h1 {
   height: 47px;
   width: 100%;
   z-index: 1000;
-  padding-top: 10px; }
+  padding-top: 6px; }
 
 .logocontainer img {
   max-width: 47px;
