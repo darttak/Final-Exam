@@ -284,11 +284,24 @@ h3{
   border: black;
   margin: auto;
 }
+.infoText{
+  padding: 5px;
+  line-height: 17px;
+}
+.fa-map-marker, .fa-phone, .fa-envelope{
+  padding-right: 5px;
+}
 .contactInfo p{
   font-family: 'Lato', sans-serif;
 }
 .aboutUs{
   background-color: #009b81;
+}
+.swiper-button-next{
+  color: black !important;
+}
+.swiper-button-prev{
+  color: black !important;
 }
 .swiper-container {
  margin: auto;
