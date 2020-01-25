@@ -1,11 +1,6 @@
 window.onscroll = function() {myFunction()};
-
-
 var navbar = document.querySelector("#myNavContainer");
-
-
 var sticky = navbar.offsetTop;
-
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
@@ -56,23 +51,18 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
-var imageBoxes = document.getElementsByClassName('imageBox');
-  for(i = 0; i < cols.imageBoxes; i++) {
-    imageBoxes[i].style = "flex:1 0 15%";
-  }
-  function modifyRowContainer(value){
-    var flexParam = "flex:1 0 21%";
-    var imageBoxes = document.getElementsByClassName('imageBox');
-    
-    switch (value) {
-        case 1:
-            flexParam = "flex:1 0 15%"
-            break;
-        default:
-            flexParam = "flex:1 0 21%";
-    }
 
-    for(i = 0; i < imageBoxes.length; i++) {
-        imageBoxes[i].style = flexParam;
-    }
+var myIndex = 0;
+carousell();
+
+function carousell() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousell, 6000); // Change image every 2 seconds
 }

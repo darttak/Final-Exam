@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    
     <title>FInalExam</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
         <!-- Nav-start -->
         <div id="myNavContainer" class="container">
             <div class="logocontainer">
-                <img src="./img/Header/b-logo.png" alt="logoimg">
+                <img class="logo" src="./img/Header/b-logo.png" alt="logoimg">
                 <div class="title-wrapper">
                     <div class="title">BAK-ONE</div>
                     <div class="subtitle">One Page Flat Template</div>
@@ -36,11 +37,25 @@
         </div>
         <!-- Nav-end -->
     </header>
-    <section id="home" class="brand">
-        <h1>We Build <span class="brandBold">Brand</span></h1>
-        <p class="brand_text">
-            BAK-ONE is an experienced and passionate group of designers, developers, project managers, writers and artists. Every client we work with becomes a part of the team. Together we face the challenges and celebrate the victories.
-        </p>
+    <section id="home" class="brand"> 
+        <div class="mySlides">
+            <h1>We Build <span class="brandBold">Brand</span></h1>
+            <p class="brand_text">
+                BAK-ONE is an experienced and passionate group of designers, developers, project managers, writers and artists. Every client we work with becomes a part of the team. Together we face the challenges and celebrate the victories.
+            </p>
+        </div>
+        <div class="mySlides"> 
+            <h1>Honestly Open</h1>
+            <p class="brand_text">
+                We keep the lines of communication wide open and reciprocal. You’ll be informed and empowered from inception to project review and beyond. We think that’s key to a happy, productive relationship and to the best results.
+            </p>
+        </div>
+        <div class="mySlides">
+            <h1>World's Best Guide.</h1>
+            <p class="brand_text">
+                Every project with BAK-One is assigned a dedicated project manager. Your project manager is your direct line to BAK-ONE, ensuring that you always know what’s going on, what’s next, and what we need from you. An expert in putting out fires (and lighting fires under people, occasionally).
+            </p>
+        </div>
     </section>
     <section id="portfolio" class="portfolio">
         <h2>Portfolio</h2>
@@ -220,7 +235,7 @@
             },
           },
           autoplay: {
-            delay: 2500,
+            delay: 4000,
             disableOnInteraction: false,
         },
           loop: true,
